@@ -253,3 +253,71 @@ main .articles-section article .video-text p {
 main .articles-section article .video-text .small {
     font-size: 16px;
 }
+
+main .telescope-photo {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+}
+
+main .telescope-photo img {
+    width: 100%;
+}
+
+main .telescope-photo p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 16px;
+    color: #828282;
+    line-height: 20px;
+    max-width: 100%;
+}
+
+main .telescope-photo p .photo-autor {
+    font-size: 14px;
+    color: #a3a2a2;
+}
+
+
+
+main .articles-section .article-footer-tx {
+    font-size: 13px;
+    color: #a3a2a2;
+    line-height: 18px;
+}
+
+main .articles-section .article-footer-tx a {
+    color: #a3a2a2;
+    text-decoration: none;
+}
+
+main .articles-section .article-footer-tx a:hover {
+    text-decoration: underline;
+}
+
+main .articles-section .article-footer .btn-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+main .articles-section .article-footer .btn-container .comments-btn {
+    background: #6788a6;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
+    border: solid 1px #45607b;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    display: inline-block;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+main .articles-section .article-footer .btn-container .media-btns button {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
