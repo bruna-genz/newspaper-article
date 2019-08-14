@@ -417,6 +417,12 @@ main .articles-section .article-footer .btn-container .media-btns button {
 }
 
 /*=======================================================Recommended Section=============================================================*/
+.others {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .others .recommended .container {
     display: flex;
     justify-content: space-between;
@@ -474,8 +480,15 @@ main .articles-section .article-footer .btn-container .media-btns button {
     flex-wrap: wrap;
 }
 
+.others .recommended .articles-container .line {
+    border-top: solid 1px #000000;
+    display: block;
+}
+
 .others .recommended .articles-container .articles article {
     width: 32%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .others .recommended .articles-container .articles article div {
@@ -489,3 +502,20 @@ main .articles-section .article-footer .btn-container .media-btns button {
 
 }
 
+.others .recommended .articles-container .articles .author {
+    text-align: right;
+    font-size: 13px;
+    color: #9f9f9f;
+    padding-top: 5px;
+}
+
+.others .recommended .articles-container .articles .mini-title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.others .recommended .articles-container .articles .date {
+    font-size: 13px;
+    color: #9f9f9f;
+}
