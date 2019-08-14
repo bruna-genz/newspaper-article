@@ -405,7 +405,6 @@ main .articles-section .article-footer .btn-container .media-btns button {
     font-size: 14px;
     color: #828282;
     text-decoration: none;
-
 }
 
 .sign-up form .links a {
@@ -418,12 +417,75 @@ main .articles-section .article-footer .btn-container .media-btns button {
 }
 
 /*=======================================================Recommended Section=============================================================*/
+.others .recommended .container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .others .recommended .articles-container {
+    width: 70%;
     display: flex;
+    flex-flow: column;
+    margin-right: 30px;
+    border-top: solid 1px #000000;
+    padding-top: 20px;
+}
+
+.others .recommended .links {
+    width: 30%;
+    border-top: solid 1px #000000;
+    padding-top: 20px;
+}
+
+.others .subtitle {
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-bottom: 18px;
+}
+
+.others .recommended .links ul {
+    padding: 0;
+}
+
+.others .recommended .links li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: solid 1px #c2c2c2;
+}
+
+.others .recommended .links a {
+    text-decoration: none;
+    display: block;
+    padding: 18px 0 18px 0;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.others .recommended .links a:hover {
+    color: #9f9f9f;
 }
 
 .others .recommended .articles-container .articles {
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.others .recommended .articles-container .articles article {
+    width: 32%;
+}
+
+.others .recommended .articles-container .articles article div {
+    min-height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.others .recommended .articles-container .articles article img{
+    width: 100%;
+
 }
 
