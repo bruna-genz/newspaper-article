@@ -417,4 +417,13 @@ main .articles-section .article-footer .btn-container .media-btns button {
     text-decoration: underline;
 }
 
+/*=======================================================Recommended Section=============================================================*/
+
+.others .recommended .articles-container {
+    display: flex;
+}
+
+.others .recommended .articles-container .articles {
+    
+}
 
