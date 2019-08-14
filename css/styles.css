@@ -321,3 +321,100 @@ main .articles-section .article-footer .btn-container .media-btns button {
     font-size: 16px;
 }
 
+/* sign up section */
+
+.others {
+    width: 100%;
+    padding: 40px;
+
+}
+
+.others .divisor {
+    border-top: solid 1px #000000;
+}
+
+.others .sign-up {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    font-family: sans-serif;
+    justify-content: space-between;
+
+}
+
+.sign-up .title {
+    width: 48%;
+}
+
+.sign-up .title h2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sign-up .title h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #6e6e6e;
+}
+
+.sign-up form {
+    width: 48%;
+}
+
+.sign-up form .email {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.sign-up form input[type=email] {
+    border: solid 1px #b5b5b5;
+    font-size: 18px;
+    padding: 12px;
+    width: 70%;
+    color: #545454;
+    border-radius: 3px;
+}
+
+.sign-up form input[type=submit] {
+    width: 30%;
+    font-size: 18px;
+    padding: 12px;
+    border: solid 1px #a3a3a3;
+    color: #ffffff;
+    font-weight: 600;
+    background: #3E7097;
+}
+
+.sign-up form input[type=submit]:hover {
+    opacity: .7;
+}
+
+.sign-up form .check {
+    width: 100%;
+    font-size: 14px;
+    color: #828282;
+    margin-bottom: 8px;
+}
+
+.sign-up form input[type=checkbox] {
+    background: #3E7097;
+}
+
+.sign-up form .links {
+    font-size: 14px;
+    color: #828282;
+    text-decoration: none;
+
+}
+
+.sign-up form .links a {
+    color: #3E7097;
+    text-decoration: none;
+}
+
+.sign-up form .links a:hover {
+    text-decoration: underline;
+}
+
+
