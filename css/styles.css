@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
 
@@ -77,7 +77,7 @@ header nav .right-btn-div a:hover {
 main {
     padding-top: 120px;
     width: 80%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -134,14 +134,50 @@ main .articles-section  {
     padding: 0 150px 0 150px;
 }
 
+main .articles-section p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    font-size: 22px;
+}
+
 main .articles-section article {
     line-height: 38px;
     font-size: 20px;
 }
 
-main .articles-section article  .author {
+main > .articles-section > article > p > a {
+    color: #3E7097;
+}
+
+main .articles-section article .author {
     margin-top: 30px;
     margin-bottom: 20px;
     font-weight: 600;
+}
+
+main .articles-section .middle-text .line {
+    width: 80px;
+    margin: auto;
+    border-top: solid .5px #b5b5b5;
+    border-bottom: solid .5px #b5b5b5;
+}
+
+main .articles-section .middle-text p {
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #2e2e2e;
+}
+
+main .articles-section .middle-text a {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3E7097;
+    line-height: 23px;
 }
 
