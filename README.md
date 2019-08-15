@@ -6,6 +6,4 @@ We cloned the article [Space Ripples Reveal Big Bang’s Smoking Gun](https://ww
 * HTML;
 * CSS;
 
-[Live Version](https://bruna-genz.github.io/newspaper-article/).
-
 Created by Bruna Genz and Oscar De La Lanza.
