@@ -1,6 +1,9 @@
-Microverse project
+Microverse Project - Positioning and Floating Elements
 
-This webpage is a "clone" from an article of a famous newspaper as a practice of positioning and floating elements in CSS.
+The goal was to build a clone from a newspaper article.
 
-_project made by_
-Oscar De La Lanza and Bruna Genz
+We cloned the article Space Ripples Reveal Big Bang’s Smoking Gun using:
+
+HTML;
+CSS;
+Created by Bruna Genz and Oscar De La Lanza.
