@@ -434,7 +434,6 @@ main .articles-section .article-footer .btn-container .media-btns button {
     flex-flow: column;
     margin-right: 30px;
     border-top: solid 1px #000000;
-    padding-top: 20px;
 }
 
 .others .recommended .links {
@@ -465,7 +464,7 @@ main .articles-section .article-footer .btn-container .media-btns button {
     display: block;
     padding: 18px 0 18px 0;
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 25px;
 }
@@ -478,6 +477,10 @@ main .articles-section .article-footer .btn-container .media-btns button {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.others .recommended .articles-container .subtitle {
+    padding-top: 15px;
 }
 
 .others .recommended .articles-container .line {
@@ -512,10 +515,93 @@ main .articles-section .article-footer .btn-container .media-btns button {
 .others .recommended .articles-container .articles .mini-title {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .others .recommended .articles-container .articles .date {
     font-size: 13px;
     color: #9f9f9f;
+}
+
+/* ============================================== footer links ==================================================== */
+.others .footer-links {
+    border-top: solid 1px #000000;
+}
+
+.others .footer-links .footer-header .main-title {
+    height: 60px;
+}
+
+.others .footer-links .footer-header .main-title img {
+    height: 100%;
+}
+
+.others .footer-links .columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.others .footer-links .columns p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.others .footer-links .columns .column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.others .footer-links .columns .left-border {
+    border-left: solid 1px #b5b5b5;
+    padding-left: 15px;
+}
+
+.others .footer-links .columns .border-bottom {
+    border-bottom: solid 1px #b5b5b5;
+}
+
+.others .footer-links .columns .column a {
+    text-decoration: none;
+    color: #2e2e2e;
+    display: block;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.others .footer-links .columns .column a:hover {
+    text-decoration: underline;
+}
+
+.others .footer-links .columns .column ul {
+    margin-bottom: 15px;
+}
+
+.others .footer-links .columns .column li .strong {
+    font-weight: 600;
+}
+
+.others .footer-links .columns .column li .small-text {
+    font-size: 12px;
+}
+
+/* =========================================== footer ======================================================= */
+footer .container {
+    border-top: solid 1px #b5b5b5;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-left: 120px;
+
+}
+
+footer .container a {
+    display: inline-block;
+    padding: 15px 5px 35px 5px;
+    font-size: 11px;
+    text-decoration: none;
+    color: #b5b5b5;
+    font-family: sans-serif;
 }
